@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box
+}
+body {
+ background: url('loan.jpeg');
+  width: 90%;
+
+}
+
+.main {
+  color: #f1f1f1;
+  text-align: center;
+  justify-content: center
+}
+
+/* Client CSS */
+
+.clientDropbtn {
+  background-color: grey;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.clientDropdown {
+  position: relative;
+  display: inline-block;
+  left: 70px;
+  top: 70px;
+  margin: 10px;
+}
+
+.clientDropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdowns {
+  align-items: center;
+  justify-content: center
+}
+.clientDropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: bolder
+}
+
+.clientDropdown-content a:hover {
+  background-color: gray;
+}
+
+.clientDropdown:hover .clientDropdown-content {
+  display: block;
+}
+
+.clientDropdown:hover .clientDropbtn {
+  background-color: black
+}
+
+
+/* Admin CSS */
+.adminDropbtn {
+  background-color: grey;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+.adminDropdown {
+  position: relative;
+  display: inline-block;
+  left: 80px;
+  top: 70px;
+  margin: 10px;
+}
+
+.adminDropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.adminDropdown-content a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: bolder
+}
+
+.adminDropdown-content a:hover {
+  background-color: gray;
+}
+
+.adminDropdown:hover .adminDropdown-content {
+  display: block;
+}
+
+.adminDropdown:hover .adminDropbtn {
+  background-color: black
+}
